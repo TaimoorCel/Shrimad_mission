@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     title: "Shrimad Rejchandra Mission - SRM Events",
     description: "Join the 35 days of Gaam Celebrations at SRM. Experience cultural events, festivities, and community gatherings.",
     images: "/images/banner/Banner-1.webp",
-    url: "https://yourdomain.com/",
+    url: "https://shrimad-rejchandra-mission-fvstt7zlx-taimoors-projects-9ebb1225.vercel.app",
   },
 };
 
