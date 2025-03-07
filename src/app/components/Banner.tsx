@@ -52,10 +52,14 @@ const Banner: React.FC<BannerProps> = ({ images }) => {
                         <Image
                             src={src}
                             alt={`Banner Image ${index + 1}`}
-                            fill
-                            className="object-cover"
-                            priority={index === 0}
-                            unoptimized
+                            className="object-cover w-full h-[360px] sm:h-[480px] md:h-[576px] lg:h-[720px] xl:h-[860px] 2xl:h-[1080px]"
+                            sizes="(max-width: 640px) 640px, (max-width: 1024px) 1024px, 1920px"
+                            height={0}
+                            width={0}
+                            priority
+                            loading="eager"
+                            placeholder="blur"
+                            blurDataURL="/images/blur-img.jpeg"
                         />
                     </motion.div>
                 ))}

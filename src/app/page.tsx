@@ -32,10 +32,10 @@ export default function Home() {
           scrollToGaamCelebrations={scrollToGaamCelebrations}
         />
         <Banner images={bannerImages} />
-        <section ref={scheduleRef}>
+        <section ref={scheduleRef} className="min-h-[600px]">
           <Schedules />
         </section>
-        <section ref={gaamCelebrationsRef}>
+        <section ref={gaamCelebrationsRef} className="min-h-[600px]">
           <GaamCelebrations />
         </section>
         <Footer />
